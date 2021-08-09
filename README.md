@@ -1,4 +1,4 @@
-Method1 using own computer
+Method: Using own computer
 
 1、Install python3.6
 
@@ -14,7 +14,3 @@ Method1 using own computer
 5、Open browser on
     http://localhost:5000/
 
-
-Method2 Using server we had built
-    Open browser on
-    http://111.229.100.125:8888/
