@@ -1,0 +1,48 @@
+﻿<!doctype html>
+{#<html lang="ja">#}
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/all_css.css') }}">
+    <meta charset="utf-8">
+    <title>Handwritten Numeral recognition</title>
+</head>
+
+<body bgcolor="#FAF9DE">
+
+<h1 class="primary-title">Artificial Intelligence -- Handwritten Numeral recognition</h1>
+
+<div class="main">
+
+    <div class="boxitem">
+        <canvas id="canvas_img" width="400" height="400"></canvas>
+        <br>
+        <br>
+        <button id="clear_button">Clear</button>
+    </div>
+
+    <div class="boxitem">
+        <div id="predictdigit">0</div>
+        <br>
+        <div id="probvalue">Probability of decision : </div>
+    </div>
+
+    <div class="boxitem">
+        <svg id="classification" width="400" height="400"></svg>
+    </div>
+    <div class="TeamID">
+        <br>
+        <br>
+        <br>
+        <p>Team members:</p>
+        <p>EGE1809326 Shen Xingcang</p>
+        <p>SWE1909468 Gao Jiaxiang</p>
+        <p>SWE1909480 Liang Jiazheng</p>
+
+    </div>
+</div>
+
+
+<script src="{{ url_for('static', filename='js/all_function.js') }}"></script>
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+<script src="//d3js.org/d3.v5.min.js"></script>
+</body>
