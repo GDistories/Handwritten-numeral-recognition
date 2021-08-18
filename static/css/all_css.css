@@ -1,0 +1,45 @@
+
+.primary-title {
+    font-family: "Comic Sans MS";
+    font-style:italic;
+    font-size: 30px;
+    text-align: center;
+    }
+
+.main {
+    text-align: center;
+}
+
+.boxitem {
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Comic Sans MS";
+}
+
+#canvas_img {
+    vertical-align: top;
+    border: solid 1px black;
+}
+
+#clear_button {
+    width: 100%;
+    font-family: "Comic Sans MS";
+    font-size: medium;
+    display: block;
+    background-color: darkseagreen;
+    color: deeppink;
+
+}
+.TeamID {
+    font-family: "Comic Sans MS";
+}
+
+#predictdigit {
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    font-size: 400px;
+    border: solid 1px black;
+    background-color: white;
+    font-family: "electronicFont";
+}
